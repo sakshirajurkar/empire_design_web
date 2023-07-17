@@ -1,0 +1,57 @@
+.align {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #002E6E;
+    border: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+.align:hover{
+    background-color:skyblue;
+    color: black;
+}
+.mrp{
+    margin-left: 80px;
+}
+body{
+    background-color: whitesmoke;
+}
+.heading {
+    text-align: center;
+}
+
+.heading-tag {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.card{
+    margin:20px;
+    
+}
+.img{
+    height: 200px;
+    width: 300px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+
+}
+.container:hover {
+    border-radius:40px;
+    box-shadow: 0px 0px 8px 5px rgb(47, 48, 47);
+    cursor: pointer;
+}
+
+.btn-1{
+    padding-left:40px ;
+}
+.top{
+    margin-top: 20px;
+}
