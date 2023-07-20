@@ -290,34 +290,15 @@ input[type=text]:focus {
 .offer-img {
     width: 600px;
     height: 400px;
-    background-image: url("../Images/img/offer-amul.png");
+    background-image: url("../images/product-1.png");
     background-size: 100%;
     box-shadow: 0px 0px 8px 8px grey;
     border-radius: 10px;
     animation: changeIcons 20s linear infinite;
 }
 
-@keyframes changeIcons {
-    0% {
-        background-image: url("../Images/img/offer-choco.webp");
-    }
 
-    25% {
-        background-image: url("../Images/img/offer-different-cheeses.jpg");
-    }
 
-    50% {
-        background-image: url("../Images/img/offer-ice-cream.webp");
-    }
-
-    75% {
-        background-image: url("../Images/img/offer-paneer.png");
-    }
-
-    100% {
-        background-image: url("../Images/img/offer-set-curd.png");
-    }
-}
 
 
 .btn-1 {
